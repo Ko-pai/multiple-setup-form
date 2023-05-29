@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;600&family=Barlow+Semi+Condensed:wght@100;200;300;400;500&family=Castoro+Titling&family=Cormorant:wght@300;500&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=EB+Garamond:wght@400;500&family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@100;200;300;400;500;600&family=Marcellus&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Prata&family=Public+Sans:ital,wght@0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97aa3d1d1c.js" crossorigin="anonymous"></script>
+    <title>Multiple Setup Form</title>
+</head>
+<body>
+    
+    <main>
+        
+        <div class="card-container">
+            <div class="left">
+                <div class="inner-left">
+                    
+                        <ul class="list-container">
+                            
+                        </ul>
+                    
+                    <div class="step-container">
+                       <div class="step1">
+                            <span>STEP 1</span>
+                            <p>YOUR INFO</p>
+                       </div>
+                       
+                       <div class="step2">
+                            <span>STEP 2</span>
+                            <p>SELECT PLAN</p>
+                       </div>
+                      
+                       <div class="step3">
+                            <span>STEP 3</span>
+                            <p>ADD-ONS</p>
+                       </div>
+                       <div class="step4">
+                            <span>STEP 4</span>
+                            <p>SUMMARY</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="right">
+
+                <!-- for personal info -->
+
+                <div class="personal-info">
+                    <div class="top">
+                        <div class="firstDiv">
+                            <h2>Personal info</h2>
+                            <p>Please provide your name, email address, and phone number.</p>
+                        </div>
+
+                        <form class="secondDiv">
+                            <div class="name">
+                                <div class="labelAndErrorContainer">
+                                    <label for="name">Name</label>
+                                    <span class="errorText"></span>
+                                </div>
+                                <input type="text" name="name" placeholder="e.g Stephen" class="nameInput">
+                            </div>
+                            
+                            <div class="email">
+                                <div class="labelAndErrorContainer1">
+                                    <label for="name">Email Address</label>
+                                    <span class="errorText1"></span>
+                                </div>
+                                <input type="email" name="email" placeholder="e.g Stephen@gmail.com" class="emailInput">
+                            </div>
+
+                            <div class="phone">
+                                <div class="labelAndErrorContainer2">
+                                    <label for="name">Phone Number</label>
+                                    <span class="errorText2"></span>
+                                </div>
+                                <input type="number" name="phone" placeholder="e.g. +959 123 456 89"  min="0"  max="3" maxlength="12" class="phoneNumber"  />
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="bottom">
+                        <button class="next-step">Next Step</button>
+                    </div>
+                </div>
+
+                <!-- for select plan -->
+
+                <div class="select-plan">
+                    <div class="top">
+                        <div class="firstDiv">
+                            <h2>Select your plan </h2>
+                            <p>You have the option of monthly or yearly billing.</p>
+                        </div>
+
+                        <div class="secondDiv">
+                           <div class="monthly-plan-container">
+                            <!-- arcade plan contaienr -->
+                                <div class="arcade-plan">
+                                    <div class="icon">
+                                        <img  class="arcade-icon" src="./assets/images/icon-arcade.svg" alt="icon-arcade">
+                                    </div>
+                                    <div class="text">
+                                        <span class="arcadePlanText">Arcade</span>
+                                        <p class="month-dollar">$<span class="arcade-month-dollar-number">9</span>/mo</p>
+                                        <p class="year-dollar">$<span class="arcade-year-dollar-number">90</span>/yr</p>
+                                        <p class="free"></p>
+                                    </div>
+                                </div>
+
+                                <!-- advanced plan container -->
+                                <div class="advanced-plan">
+                                    <div class="icon">
+                                        <img src="./assets/images/icon-advanced.svg" alt="icon-advanced">
+                                    </div>
+                                    <div class="text1">
+                                        <span class="advancedPlanText">Advanced</span>
+                                        <p class="month-dollar1">$<span class="advanced-month-dollar-number">12</span>/mo</p>
+                                        <p class="year-dollar1">$<span class="advanced-year-dollar-number">120</span>/yr</p>
+                                        <p class="free1"></p>
+                                    </div>
+                                </div>
+
+                                <!-- pro plan container -->
+                                <div class="pro-plan">
+                                    <div class="icon">
+                                        <img src="./assets/images/icon-pro.svg" alt="icon-pro">
+                                    </div>
+                                    <div class="text2">
+                                        <span class="proPlanText">Pro</span>
+                                        <p class="month-dollar2">$<span class="pro-month-dollar-number">15</span>/mo</p>
+                                        <p class="year-dollar2">$<span class="pro-year-dollar-number">150</span>/yr</p>
+                                        <p class="free2"></p>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="year-month-toggle">
+                                <span class="year-month-container">
+                                    <p class="monthly">Monthly</p>
+                                    <div class="circle-container">
+                                        <div class="circle"></div>
+                                    </div>
+                                    <p class="yearly">Yearly</p>
+                                </span>
+                           </div>
+
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p class="goBack">Go Back</p>
+                        <button class="next-step-in-planTab">Next Step</button>
+                    </div>
+                </div>
+
+
+                <!-- for Add ons page -->
+                <div class="add-ons">
+                    <div class="top">
+                        <div class="firstDiv">
+                            <h2>Pick add-ons</h2>
+                            <p>Add-ons help enhance your gaming experience.</p>
+                        </div>
+
+                        <div class="secondDiv">
+                           <div class="inner-secondDiv">
+
+                            <!-- for online service -->
+                            <div class="onlineService">
+                                <div class="checkboxContainer">
+                                    <span class="checkboxStyle"></span>
+                                    <i class="fa-solid fa-check"></i> 
+                                </div>
+                                <div class="textInAddOns">
+                                    <span class="service">Online service</span>
+                                    <p>Access to multiplayer games</p>
+                                </div>
+                                <div class="monthlyTax">
+                                    <p class="yearAndMonthAmount">+$<span class="onlineService-month-dollar-number">1</span>/mo</p>
+                                </div>
+                                <div class="yearlyTax">
+                                    <p>+$<span class="onlineService-year-dollar-number">10</span>/yr</p>
+                                </div>
+                            </div>
+
+                            <!-- for larger storage -->
+                            <div class="largerStorage">
+                                <div class="checkboxContainer1">
+                                    <span class="checkboxStyle1"></span>
+                                    <i class="fa-solid fa-check largerIcon" ></i> 
+                                </div>
+                                <div class="textInAddOns">
+                                    <span class="service1">Larger Storage</span>
+                                    <p>Access to multiplayer games</p>
+                                </div>
+                                <div class="monthlyTax1">
+                                    <p>+$<span class="largerStorage-month-dollar-number">2</span>/mo</p>
+                                </div>
+                                <div class="yearlyTax1">
+                                    <p>+$<span class="largerStorage-year-dollar-number">20</span>/yr</p>
+                                </div>
+                            </div>
+
+
+                            <!-- for customizable profile -->
+                            <div class="customizableProfile">
+                                <div class="checkboxContainer2">
+                                    <span class="checkboxStyle2"></span>
+                                    <i class="fa-solid fa-check customizeIcon"></i> 
+                                </div>
+                                <div class="textInAddOns">
+                                    <span class="service2">Customizable Profile</span>
+                                    <p>Access to multiplayer games</p>
+                                </div>
+                                <div class="monthlyTax2">
+                                    <p>+$<span class="customizeProfile-month-dollar-number">2</span>/mo</p>
+                                </div>
+                                <div class="yearlyTax2">
+                                    <p>+$<span class="customizeProfile-year-dollar-number">20</span>/yr</p>
+                                </div>
+                            </div>
+                           </div>
+
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p class="goBackInAddons">Go Back</p>
+                        <button class="next-step-in-addOnsTab">Next Step</button>
+                    </div>
+                </div>
+
+                <!-- for Finishing up -->
+                <div class="finishing-up">
+                    <div class="top">
+                        <div class="firstDiv">
+                            <h2>Finishing Up</h2>
+                            <p>Double-check everything looks OK before confirming.</p>
+                        </div>
+
+                        <div class="secondDiv">
+                           <div class="innerSecondDiv">
+                                <div class="finishPlanBill">
+                                    <div class="plan">
+                                        <span class="selected-plan"></span>
+                                        <a class="change" href="#">Change</a>
+                                    </div> 
+                                    <div class="billTextContainer">
+                                        <p class="selected-plan-bill"></p>
+                                    </div>   
+                                </div>
+                                <div class="add-ons-selected-text-container">
+                                    <div class="serviceText">
+                                        <p class="firstP"></p>
+                                        <p class="secondP"></p>
+                                        <p class="thirdP"></p>
+                                    </div>
+
+                                    <div class="monthlyBillText">
+                                        <p class="firstBill"></p>
+                                        <p class="secondBill"></p>
+                                        <p class="thirdBill"></p>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="totalAmount">
+                                <div class="totalAmountContainer">
+                                    <span class="TotalText">
+                                        
+                                    </span>
+                                    <span class="totalBill"></span>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p class="goBackInFinishUp">Go Back</p>
+                        <button class="next-step-in-FinishUp">Next Step</button>
+                    </div>
+                </div>
+
+
+                <!-- for thank you page -->
+                <div class="last-container">
+                    <div class="replyThankContainer">
+                        <div class="top">
+                            <div class="thankIconContainer">
+                                <img src="./assets/images/icon-thank-you.svg" alt="thank">
+                            </div>
+                            <div class="thankText">
+                                <p>Thank you!</p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p>Thanks for confirming your subscription! We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
