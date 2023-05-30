@@ -190,6 +190,7 @@ body{
                                 margin: 0;
                                 padding: 0;
                                 font-size: 30px;
+                                letter-spacing: -0.5px;
                             }
 
                             p{
@@ -607,6 +608,7 @@ body{
                                 margin: 0;
                                 padding: 0;
                                 font-size: 30px;
+                                letter-spacing: -0.5px;
                             }
 
                             p{
@@ -801,6 +803,7 @@ body{
                                 margin: 0;
                                 padding: 0;
                                 font-size: 30px;
+                                letter-spacing: -0.5px;
                             }
 
                             p{
@@ -906,6 +909,11 @@ body{
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
+
+                                        p{
+                                            color: hsl(243, 100%, 62%);
+                                            font-weight: 500;
+                                        }
                                     }
                                     .yearlyTax{
                                         width: 80px;
@@ -993,6 +1001,11 @@ body{
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
+
+                                        p{
+                                            color: hsl(243, 100%, 62%);
+                                            font-weight: 500;
+                                        }
                                     }
                                     .yearlyTax1{
                                         width: 80px;
@@ -1080,6 +1093,11 @@ body{
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
+
+                                        p{
+                                            color: hsl(243, 100%, 62%);
+                                            font-weight: 500;
+                                        }
                                     }
                                     .yearlyTax2{
                                         width: 80px;
@@ -1167,6 +1185,7 @@ body{
                                 margin: 0;
                                 padding: 0;
                                 font-size: 30px;
+                                letter-spacing: -0.5px;
                             }
 
                             p{
@@ -1316,7 +1335,7 @@ body{
                                         
                                     }
                                     .totalBill{
-                                        width: 123px;
+                                        width: 106px;
                                         height: 100%;
                                         display: flex;
                                         align-items: center;
@@ -1492,6 +1511,8 @@ body{
                     background :hsl(206deg 30.98% 90.87%);
                     position: relative;
 
+
+                    /* For personal-info responsive */
                     .personal-info{
                         align-items: center;
                         position: unset;
@@ -1503,9 +1524,16 @@ body{
                             background:hsl(231, 100%, 99%);
                             border-radius: 20px;
                             align-items: center;
+                            padding-top: 36px;
 
                             .firstDiv{
                                 width: 80%;
+                                margin-bottom: 15px;
+
+                                p{
+                                    font-size: 19px;
+                                    
+                                }
                             }
 
                             .secondDiv{
@@ -1528,6 +1556,8 @@ body{
                         }
                     }
 
+
+                    /* For select-plan responsive */
                     .select-plan{
                         position: unset;
                         align-items: center;
@@ -1536,17 +1566,23 @@ body{
                         .top{
                             background: white;
                             border-radius: 20px;
-                            top: -90px;
+                            top: -80px;
                             align-items: center;
                             padding-top: 30px;
+                            height: 83%;
+                           
 
                             .firstDiv{
                                 width: 80%;
+
+                                p{
+                                    font-size: 19px;
+                                }
                             }
 
                             .secondDiv{
                                 width: 80%;
-                                
+                                padding-top: 43px;
 
                                 .year-month-toggle{
                                     margin-top: 84px;
@@ -1575,10 +1611,6 @@ body{
                                             padding-left: 10px;
                                             padding-bottom: 10px;
                                             padding-top: 10px;
-                                        }
-
-                                        .text{
-                                            
                                         }
                                     }
                                     .advanced-plan{
@@ -1630,13 +1662,198 @@ body{
                             padding-left: 30px;
                             left: 0;
                             width: 100%;
-                            align-items: center;
+                            height: 20%;
+                            align-items: start;
                             padding-bottom: 0;
                             background: azure;
                             
-                            button{
 
+                            button{
+                                margin-top: 20px;
                                 margin-right: 60px;
+                            }
+
+                            .goBack{
+                                margin-top: 35px;
+                            }
+                        }
+                    }
+
+                    /* For add-ons  responsive */
+                    .add-ons{
+                        position: unset;
+                        align-items: center;
+
+                        .top{
+                            width: 80%;
+                            height: 73%;
+                            padding-top: 30px;
+                            border-radius: 20px;
+                            background-color: white;
+                            padding: 25px;
+                            top: -80px;
+
+
+                            .firstDiv{
+                                width: 99%;
+
+                                p{
+                                    font-size: 19px;
+                                }
+                            }
+                            .secondDiv{
+                                align-items: center;
+
+
+                                .inner-secondDiv{
+
+                                    .onlineService{
+                                        padding-right: 10px;
+
+                                        .textInAddOns{
+
+                                            p{
+                                                letter-spacing: -0.5px;
+                                            }
+                                        }
+
+                                        .monthlyTax{
+                                            margin-left: 20px;
+                                            
+                                        }
+                                    }
+
+
+                                    .largerStorage{
+                                        padding-right: 10px;
+                                        .textInAddOns{
+
+                                            p{
+                                                letter-spacing: -0.5px;
+                                            }
+                                        }
+
+                                        .monthlyTax1{
+                                            margin-left: 20px;
+
+                                        }
+                                    }
+
+
+                                    .customizableProfile{
+                                        padding-right: 10px;
+                                        .textInAddOns{
+
+                                            p{
+                                                letter-spacing: -0.5px;
+                                            }
+                                        }
+
+                                        .monthlyTax2{
+                                            margin-left: 20px;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .bottom{
+                            width: 100%;
+                            height: 20%;
+                            background-color: azure;
+                            align-items: start;
+                            padding-left: 60px;
+
+                            button{
+                                margin-top: 20px;
+                                margin-right: 60px;
+
+                            }
+                            .goBackInAddons{
+                                margin-top: 35px;
+                            }
+                        }
+                    }
+
+
+                    /* For Finishing Up responsive */
+                    .finishing-up{
+                        position: unset;
+                        align-items: center;
+
+                        .top{
+                            width: 80%;
+                            background-color: white;
+                            border-radius: 20px;
+                            top: -80px;
+                            padding: 20px;
+
+                            .firstDiv{
+                                margin-top: 10px;
+                            }
+
+                            .secondDiv{
+                                align-items: center;
+                                justify-content: center;
+                            }
+                        }
+
+                        .bottom{
+                            width: 100%;
+                            height: 20%;
+                            background-color: azure;
+                            align-items: start;
+                            padding-left: 60px;
+
+                            button{
+                                margin-top: 20px;
+                                margin-right: 60px;
+
+                            }
+                            .goBackInFinishUp{
+                                margin-top: 35px;
+                            }
+                        }
+                    }
+
+                    // for last container
+                    .last-container{
+
+
+                        .replyThankContainer{
+                            background: white;
+                            position: absolute;
+                            top: -160px;
+                            border-radius: 20px;
+                            height: 60%;
+                            padding: 10px;
+                            width: 90%;
+
+                            .top{
+
+
+
+                                .thankText{
+                                    width: 180px;
+                                }
+                            }
+
+                            .bottom{
+
+                                
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                p{
+                                    text-align: center;
+                                    font-size: 18px;
+                                    width: 89%;
+                                    
+                                }
+
                             }
                         }
                     }

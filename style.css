@@ -170,6 +170,7 @@ body main .card-container .right .select-plan .top .firstDiv h2 {
   margin: 0;
   padding: 0;
   font-size: 30px;
+  letter-spacing: -0.5px;
 }
 body main .card-container .right .select-plan .top .firstDiv p {
   color: hsl(0, 1%, 64%);
@@ -516,6 +517,7 @@ body main .card-container .right .personal-info .top .firstDiv h2 {
   margin: 0;
   padding: 0;
   font-size: 30px;
+  letter-spacing: -0.5px;
 }
 body main .card-container .right .personal-info .top .firstDiv p {
   color: hsl(0, 1%, 64%);
@@ -664,6 +666,7 @@ body main .card-container .right .add-ons .top .firstDiv h2 {
   margin: 0;
   padding: 0;
   font-size: 30px;
+  letter-spacing: -0.5px;
 }
 body main .card-container .right .add-ons .top .firstDiv p {
   color: hsl(0, 1%, 64%);
@@ -747,6 +750,10 @@ body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onli
   align-items: center;
   justify-content: center;
 }
+body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onlineService .monthlyTax p {
+  color: hsl(243, 100%, 62%);
+  font-weight: 500;
+}
 body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onlineService .yearlyTax {
   width: 80px;
   height: 100%;
@@ -815,6 +822,10 @@ body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .larg
   display: flex;
   align-items: center;
   justify-content: center;
+}
+body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .largerStorage .monthlyTax1 p {
+  color: hsl(243, 100%, 62%);
+  font-weight: 500;
 }
 body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .largerStorage .yearlyTax1 {
   width: 80px;
@@ -885,6 +896,10 @@ body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .cust
   align-items: center;
   justify-content: center;
 }
+body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .customizableProfile .monthlyTax2 p {
+  color: hsl(243, 100%, 62%);
+  font-weight: 500;
+}
 body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .customizableProfile .yearlyTax2 {
   width: 80px;
   height: 100%;
@@ -953,6 +968,7 @@ body main .card-container .right .finishing-up .top .firstDiv h2 {
   margin: 0;
   padding: 0;
   font-size: 30px;
+  letter-spacing: -0.5px;
 }
 body main .card-container .right .finishing-up .top .firstDiv p {
   color: hsl(0, 1%, 64%);
@@ -1077,7 +1093,7 @@ body main .card-container .right .finishing-up .top .secondDiv .totalAmount .tot
   color: hsl(231, 11%, 63%);
 }
 body main .card-container .right .finishing-up .top .secondDiv .totalAmount .totalAmountContainer .totalBill {
-  width: 123px;
+  width: 106px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -1208,6 +1224,10 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
     justify-content: center;
     background: hsl(206, 30.98%, 90.87%);
     position: relative;
+    /* For personal-info responsive */
+    /* For select-plan responsive */
+    /* For add-ons  responsive */
+    /* For Finishing Up responsive */
   }
   body main .card-container .right .personal-info {
     align-items: center;
@@ -1220,9 +1240,14 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
     background: hsl(231, 100%, 99%);
     border-radius: 20px;
     align-items: center;
+    padding-top: 36px;
   }
   body main .card-container .right .personal-info .top .firstDiv {
     width: 80%;
+    margin-bottom: 15px;
+  }
+  body main .card-container .right .personal-info .top .firstDiv p {
+    font-size: 19px;
   }
   body main .card-container .right .personal-info .top .secondDiv {
     width: 80%;
@@ -1245,15 +1270,20 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
   body main .card-container .right .select-plan .top {
     background: white;
     border-radius: 20px;
-    top: -90px;
+    top: -80px;
     align-items: center;
     padding-top: 30px;
+    height: 83%;
   }
   body main .card-container .right .select-plan .top .firstDiv {
     width: 80%;
   }
+  body main .card-container .right .select-plan .top .firstDiv p {
+    font-size: 19px;
+  }
   body main .card-container .right .select-plan .top .secondDiv {
     width: 80%;
+    padding-top: 43px;
   }
   body main .card-container .right .select-plan .top .secondDiv .year-month-toggle {
     margin-top: 84px;
@@ -1314,11 +1344,134 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
     padding-left: 30px;
     left: 0;
     width: 100%;
-    align-items: center;
+    height: 20%;
+    align-items: start;
     padding-bottom: 0;
     background: azure;
   }
   body main .card-container .right .select-plan .bottom button {
+    margin-top: 20px;
     margin-right: 60px;
+  }
+  body main .card-container .right .select-plan .bottom .goBack {
+    margin-top: 35px;
+  }
+  body main .card-container .right .add-ons {
+    position: unset;
+    align-items: center;
+  }
+  body main .card-container .right .add-ons .top {
+    width: 80%;
+    height: 73%;
+    padding-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+    top: -80px;
+  }
+  body main .card-container .right .add-ons .top .firstDiv {
+    width: 99%;
+  }
+  body main .card-container .right .add-ons .top .firstDiv p {
+    font-size: 19px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv {
+    align-items: center;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onlineService {
+    padding-right: 10px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onlineService .textInAddOns p {
+    letter-spacing: -0.5px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onlineService .monthlyTax {
+    margin-left: 20px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .largerStorage {
+    padding-right: 10px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .largerStorage .textInAddOns p {
+    letter-spacing: -0.5px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .largerStorage .monthlyTax1 {
+    margin-left: 20px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .customizableProfile {
+    padding-right: 10px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .customizableProfile .textInAddOns p {
+    letter-spacing: -0.5px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .customizableProfile .monthlyTax2 {
+    margin-left: 20px;
+  }
+  body main .card-container .right .add-ons .bottom {
+    width: 100%;
+    height: 20%;
+    background-color: azure;
+    align-items: start;
+    padding-left: 60px;
+  }
+  body main .card-container .right .add-ons .bottom button {
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+  body main .card-container .right .add-ons .bottom .goBackInAddons {
+    margin-top: 35px;
+  }
+  body main .card-container .right .finishing-up {
+    position: unset;
+    align-items: center;
+  }
+  body main .card-container .right .finishing-up .top {
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    top: -80px;
+    padding: 20px;
+  }
+  body main .card-container .right .finishing-up .top .firstDiv {
+    margin-top: 10px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv {
+    align-items: center;
+    justify-content: center;
+  }
+  body main .card-container .right .finishing-up .bottom {
+    width: 100%;
+    height: 20%;
+    background-color: azure;
+    align-items: start;
+    padding-left: 60px;
+  }
+  body main .card-container .right .finishing-up .bottom button {
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+  body main .card-container .right .finishing-up .bottom .goBackInFinishUp {
+    margin-top: 35px;
+  }
+  body main .card-container .right .last-container .replyThankContainer {
+    background: white;
+    position: absolute;
+    top: -160px;
+    border-radius: 20px;
+    height: 60%;
+    padding: 10px;
+    width: 90%;
+  }
+  body main .card-container .right .last-container .replyThankContainer .top .thankText {
+    width: 180px;
+  }
+  body main .card-container .right .last-container .replyThankContainer .bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .card-container .right .last-container .replyThankContainer .bottom p {
+    text-align: center;
+    font-size: 18px;
+    width: 89%;
   }
 }/*# sourceMappingURL=style.css.map */
