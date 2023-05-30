@@ -42,6 +42,9 @@ body main .card-container .left .inner-left ul {
   width: 10%;
   height: 70%;
   padding-top: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 body main .card-container .left .inner-left ul li {
   width: 40px;
@@ -55,12 +58,10 @@ body main .card-container .left .inner-left ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
   cursor: pointer;
   font-weight: 500;
   transition: all 0.7s ease;
+  font-size: 17px;
 }
 body main .card-container .left .inner-left ul .active {
   background: rgb(170, 219, 235);

@@ -44,7 +44,7 @@ body{
                             width: 10%;
                             height: 70%;
                             padding-top: 5px;
-
+                            user-select: none;
 
                             li{
                                 width: 40px;
@@ -58,10 +58,12 @@ body{
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                user-select: none;
+                                
                                 cursor: pointer;
                                 font-weight: 500;
                                 transition: all 0.7s ease;
+                                font-size: 17px;
+                               
                                 
                             }
                             .active{
@@ -1629,9 +1631,7 @@ body{
                                             padding-left: 10px;
                                         }
 
-                                        .text1{
-                                            
-                                        }
+                                        
                                     }
                                     .pro-plan{
                                         width: 100%;
@@ -1646,11 +1646,7 @@ body{
                                             padding-top: 10px;
                                             padding-bottom: 10px;
                                             padding-left: 10px;
-                                        }
-
-                                        .text2{
-                                            
-                                        }
+                                        }                                     
                                     }
                                 }
                             }
