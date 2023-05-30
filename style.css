@@ -1273,7 +1273,7 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
     top: -80px;
     align-items: center;
     padding-top: 30px;
-    height: 83%;
+    height: 75%;
   }
   body main .card-container .right .select-plan .top .firstDiv {
     width: 80%;
@@ -1344,7 +1344,7 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
     padding-left: 30px;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 25%;
     align-items: start;
     padding-bottom: 0;
     background: azure;
@@ -1362,7 +1362,7 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
   }
   body main .card-container .right .add-ons .top {
     width: 80%;
-    height: 73%;
+    height: 70%;
     padding-top: 30px;
     border-radius: 20px;
     background-color: white;
@@ -1407,7 +1407,7 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
   }
   body main .card-container .right .add-ons .bottom {
     width: 100%;
-    height: 20%;
+    height: 22%;
     background-color: azure;
     align-items: start;
     padding-left: 60px;
@@ -1425,6 +1425,7 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
   }
   body main .card-container .right .finishing-up .top {
     width: 80%;
+    height: 75%;
     background-color: white;
     border-radius: 20px;
     top: -80px;
@@ -1471,7 +1472,7 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
   }
   body main .card-container .right .last-container .replyThankContainer .bottom p {
     text-align: center;
-    font-size: 18px;
-    width: 89%;
+    font-size: 17px;
+    width: 82%;
   }
 }/*# sourceMappingURL=style.css.map */
