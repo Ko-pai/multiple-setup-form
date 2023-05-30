@@ -1516,13 +1516,15 @@ body{
 
                         .bottom{
                             padding-bottom: 0;
-                            align-items: center;
+                            align-items: start;
                             padding-right: 60px;
                             background-color: white;
-                            height: 15%;
+                            height: 25%;
                             width: 100%;
                            
-                            
+                            button{
+                                margin-top: 20px;
+                            }
                         }
                     }
 
