@@ -60,7 +60,7 @@ body{
                                 justify-content: center;
                                 
                                 cursor: pointer;
-                                font-weight: 500;
+                                font-weight: 700;
                                 transition: all 0.7s ease;
                                 font-size: 17px;
                                
@@ -1853,6 +1853,242 @@ body{
                                     
                                 }
 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width : 375px){
+    body{
+        
+
+        main{
+
+            .card-container{
+
+                .right{
+
+                    .personal-info{
+
+                        .top{
+
+                            height: 87%;
+                            
+
+
+                            .secondDiv{
+                                padding-top: 30px;
+                            }
+                        }
+
+                        .bottom{
+
+                            height: 18%;
+
+                            button{
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+
+
+                    .select-plan{
+                        
+
+                        .top{
+                            padding-top: 19px;
+                            height: 98%;
+                            top: -95px;
+
+                            .firstDiv{
+                                
+
+                                h1{
+                                    font-size: 27px;
+
+                                }
+                                p{
+                                    font-size: 17px;
+
+                                }
+                            }
+
+                            .secondDiv{
+                                padding-top: 38px;
+                                height: 80%;
+                            }
+                        }
+
+                        .bottom{
+                            height: 15%;
+
+
+                            .goBack{
+                                margin-top: 25px;
+
+                            }
+                            button{
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+
+
+                    .add-ons{
+
+                        .top{
+                            height: 80%;
+
+
+
+                            .firstDiv{
+
+                                p{
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .secondDiv{
+                                align-items: end;
+                                margin-top: 23px;
+
+
+                                .inner-secondDiv{
+                                    height: 94%;
+
+
+                                    .onlineService{
+
+                                        .textInAddOns{
+
+                                            p{
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                    .largerStorage{
+
+                                        .textInAddOns{
+
+                                            p{
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                    .customizableProfile{
+
+                                        .textInAddOns{
+
+                                            p{
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .bottom{
+                            height: 14%;
+
+
+                            
+                        }
+                    }
+
+
+                    .finishing-up{
+
+
+                        .top{
+
+
+                            .firstDiv{
+
+                                p{
+                                    font-size: 16px;
+                                }
+                            }
+                            .secondDiv{
+
+                                .innerSecondDiv{
+
+                                    .finishPlanBill{
+
+                                        .plan{
+
+                                            span{
+                                                font-size: 17px;
+                                            }
+                                        }
+
+                                        .billTextContainer{
+
+                                            font-size: 17px;
+                                        }
+
+
+                                    }
+
+
+                                    .add-ons-selected-text-container{
+
+
+                                        .monthlyBillText{
+
+                                            .firstBill{
+
+                                                font-size: 14px;
+                                                
+                                            }
+                                            .secondBill{
+
+                                                font-size: 14px;
+
+                                            }
+                                            .thirdBill{
+
+                                                font-size: 14px;
+
+                                            }
+                                        }
+                                    }
+                                }
+
+
+                                .totalAmount{
+
+
+                                    .totalAmountContainer{
+
+                                        .totalBill{
+
+                                            font-size: 19px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                    .last-container{
+
+                        .replyThankContainer{
+
+                            height: 80%;
+
+
+                            .bottom{
+
+                                p{
+                                    width: 90%;
+                                }
                             }
                         }
                     }

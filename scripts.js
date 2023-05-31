@@ -363,7 +363,7 @@ listArray.map((data)=>{
    
     
 
-/*
+
     createList.addEventListener("click",(e)=>{
         
         let targetId = e.target.id
@@ -397,7 +397,7 @@ listArray.map((data)=>{
         }
 
     })
-*/
+
 })
 
 

@@ -59,7 +59,7 @@ body main .card-container .left .inner-left ul li {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 700;
   transition: all 0.7s ease;
   font-size: 17px;
 }
@@ -1475,5 +1475,95 @@ body main .card-container .right .last-container .replyThankContainer .bottom p 
     text-align: center;
     font-size: 17px;
     width: 80%;
+  }
+}
+@media (max-width: 375px) {
+  body main .card-container .right .personal-info .top {
+    height: 87%;
+  }
+  body main .card-container .right .personal-info .top .secondDiv {
+    padding-top: 30px;
+  }
+  body main .card-container .right .personal-info .bottom {
+    height: 18%;
+  }
+  body main .card-container .right .personal-info .bottom button {
+    margin-top: 10px;
+  }
+  body main .card-container .right .select-plan .top {
+    padding-top: 19px;
+    height: 98%;
+    top: -95px;
+  }
+  body main .card-container .right .select-plan .top .firstDiv h1 {
+    font-size: 27px;
+  }
+  body main .card-container .right .select-plan .top .firstDiv p {
+    font-size: 17px;
+  }
+  body main .card-container .right .select-plan .top .secondDiv {
+    padding-top: 38px;
+    height: 80%;
+  }
+  body main .card-container .right .select-plan .bottom {
+    height: 15%;
+  }
+  body main .card-container .right .select-plan .bottom .goBack {
+    margin-top: 25px;
+  }
+  body main .card-container .right .select-plan .bottom button {
+    margin-top: 10px;
+  }
+  body main .card-container .right .add-ons .top {
+    height: 80%;
+  }
+  body main .card-container .right .add-ons .top .firstDiv p {
+    font-size: 16px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv {
+    align-items: end;
+    margin-top: 23px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv {
+    height: 94%;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .onlineService .textInAddOns p {
+    font-size: 14px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .largerStorage .textInAddOns p {
+    font-size: 14px;
+  }
+  body main .card-container .right .add-ons .top .secondDiv .inner-secondDiv .customizableProfile .textInAddOns p {
+    font-size: 14px;
+  }
+  body main .card-container .right .add-ons .bottom {
+    height: 14%;
+  }
+  body main .card-container .right .finishing-up .top .firstDiv p {
+    font-size: 16px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv .innerSecondDiv .finishPlanBill .plan span {
+    font-size: 17px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv .innerSecondDiv .finishPlanBill .billTextContainer {
+    font-size: 17px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv .innerSecondDiv .add-ons-selected-text-container .monthlyBillText .firstBill {
+    font-size: 14px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv .innerSecondDiv .add-ons-selected-text-container .monthlyBillText .secondBill {
+    font-size: 14px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv .innerSecondDiv .add-ons-selected-text-container .monthlyBillText .thirdBill {
+    font-size: 14px;
+  }
+  body main .card-container .right .finishing-up .top .secondDiv .totalAmount .totalAmountContainer .totalBill {
+    font-size: 19px;
+  }
+  body main .card-container .right .last-container .replyThankContainer {
+    height: 80%;
+  }
+  body main .card-container .right .last-container .replyThankContainer .bottom p {
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
