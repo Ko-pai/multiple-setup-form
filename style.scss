@@ -1377,7 +1377,7 @@ body{
                         button{
                             width:110px;
                             height: 50px;
-                            background: hsl(213, 96%, 18%);
+                            background: hsl(243, 100%, 62%);
                             color: rgba(255, 255, 255, 0.863);
                             border: none;
                             border-radius: 10px;
@@ -1387,7 +1387,7 @@ body{
                             z-index: 1;
 
                             &:active{
-                                background:  hsl(213, 92%, 26%);
+                                background:  hsla(243, 86%, 67%, 0.856);
                             }
                         }
                     }

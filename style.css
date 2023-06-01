@@ -1123,7 +1123,7 @@ body main .card-container .right .finishing-up .bottom .goBackInFinishUp {
 body main .card-container .right .finishing-up .bottom button {
   width: 110px;
   height: 50px;
-  background: hsl(213, 96%, 18%);
+  background: hsl(243, 100%, 62%);
   color: rgba(255, 255, 255, 0.863);
   border: none;
   border-radius: 10px;
@@ -1133,7 +1133,7 @@ body main .card-container .right .finishing-up .bottom button {
   z-index: 1;
 }
 body main .card-container .right .finishing-up .bottom button:active {
-  background: hsl(213, 92%, 26%);
+  background: hsla(243, 86%, 67%, 0.856);
 }
 body main .card-container .right .last-container {
   width: 90%;

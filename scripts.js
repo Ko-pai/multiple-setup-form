@@ -362,7 +362,7 @@ listArray.map((data)=>{
     })
    
     
-
+// this is use for List number 1 2 3 4 to move  
 /*
     createList.addEventListener("click",(e)=>{
         
